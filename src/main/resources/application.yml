@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: rstech-pdv
+  mongodb:
+    uri: ${MONGODB_URI:mongodb://localhost:27017/sistema}
+
+server:
+  port: 8080
