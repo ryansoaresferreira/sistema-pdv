@@ -29,7 +29,7 @@ public class Sale {
     @Field(targetType = FieldType.DECIMAL128)
     private BigDecimal sellerCommission;
 
-    private String paymentMethod;
+    private PaymentMethod paymentMethod;
 
     private Instant createdAt = Instant.now();
 }
